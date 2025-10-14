@@ -6,5 +6,7 @@ public class InputOutput {
         Scanner sc = new Scanner(System.in);
         String name = sc.nextLine(); // taking the input
         System.out.println(name);
+        sc.close();
+    
     }
 }
